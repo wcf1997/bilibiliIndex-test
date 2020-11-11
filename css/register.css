@@ -1,0 +1,347 @@
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* 统一按钮样式 */
+button{
+    background: #00a1d6;
+    color:#fff;
+    border-radius: 4px;
+}
+button:hover{
+    background: #33b4de;;
+
+}
+
+/* 统一输入框样式 */
+input[type="text"]{
+    text-indent: 1em;
+    color: #606266;
+    font-size: 14px;
+    border: 1px solid #dcdfe6 ;
+    border-radius: 4px;
+    height: 40px;
+   
+}
+input[type="text"]:focus{
+    border-color: #00a1d6;
+}
+
+.header{
+  width: 100%;
+  height: 160px;
+}
+.header .nav-top{
+    width: 100%;
+    height: 42px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 42px;
+    box-sizing: border-box;
+  
+}
+.header .nav-top .nav-top-left{
+    margin-left: 160px;
+     float: left;
+    position: relative;
+}
+
+.header .nav-top .nav-top-left nav a{
+    margin: 0 5px;
+}
+.header .nav-top .nav-top-center{
+    width: 470px;
+    position: relative;
+    color: #999;  
+    float: left;
+    margin-left: 10px;
+    
+   
+}
+.header .nav-top .nav-top-center form .search {
+    width: 35px;
+    height: 350px;
+   
+}
+.header .nav-top .nav-top-center form{
+  
+}
+.header .nav-top .nav-top-center form input{
+    border: 1px solid #e7e7e7;
+    width: 100%;
+    height: 30px;
+    background: #f4f4f4;
+    text-indent: 1em;
+    border-radius: 3px;
+    box-sizing: border-box;
+    padding-right: 50px;
+
+}
+.header .nav-top .nav-top-center form button{
+    /* background:url("../image/nav2.png"); */
+    position: absolute;
+    top: 6px;
+    right: 0px;
+    cursor: pointer;
+    border-radius:0 3px 3px 0;
+    box-sizing: border-box;
+    height: 30px;
+    width: 42px;
+}
+.header .nav-top .nav-top-center form button img{
+    width: 30px;
+    height: 30px;
+}
+
+.header .nav-top .nav-top-right{
+    margin-left: 50px;
+    width: 350px;
+    float: left;
+}
+.header .nav-top .nav-top-right nav a{
+    margin-right: 10px;
+}
+.header .nav-top .nav-top-right nav .Contribute{
+    padding: 15px;
+    color: #fff;
+    background: #f45a8d;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+   
+}
+.header .nav-bottom{
+    background: #00a0d8;
+    height: 86px;
+    width: 100%;
+    position: relative;
+ 
+}
+.header .nav-bottom .nav-bottom-img{
+    width: 980px;
+    height: 106px;
+     position: absolute;
+    top: 0;
+    left: 350px;
+  
+}
+/* 以上为导航栏 */
+
+/* 以下为注册 */
+.form{
+    width: 980px;
+    margin: 0 auto;
+}
+.form h2{
+    width: 980px;
+    height: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+.form .title h2  span{
+    font-size: 38px;
+    padding: 5px;
+    background-color: #fff;
+   
+}
+
+/* 表单区域 */
+.form .form-area{
+    margin-top: 70px;
+   
+
+}
+.form .form-area .container{
+    margin: 40px auto;
+
+}
+.form .container .item-user input,
+.form .container .item-password input{
+    width: 420px;
+    border: 1px solid #dcdfe6 ;
+     
+}
+.form .container .item-user input:focus,
+.form .container .item-password input:focus{
+    border-color: #00a1d6;
+}
+
+
+.form .form-area .container{
+    width: 420px;
+    height: 40px;
+    box-sizing: border-box;
+   
+}
+.form .form-area .container .select-item{
+    width: 420px;
+    height: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+.form .form-area .container .select-item .select-city{
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #606266;
+    border: 1px solid #dcdfe6 ;
+    float: left;
+    border-radius: 4px 0 0 4px;
+    border-right: none;
+    box-sizing: border-box;
+   
+}
+.form .form-area .container .select-item ul{
+    width: 100px;
+    height: 300px;
+    margin-top: 20px;
+    background: #fff;
+    position: absolute;
+    border:1px solid #dcdfe6 ;
+    border-radius: 4px;
+    top: 15px;
+    box-sizing: border-box;
+    display: none;
+   
+    
+
+}
+.form .form-area .container .select-item ul li{
+    padding: 15px 15px;
+    color: #606266;
+    font-size: 14px;
+    overflow-wrap: unset;
+    overflow: hidden;
+    text-overflow:ellipsis;
+}
+.form .form-area .container .select-item ul li:hover{
+    background: #f5f7fa;
+}
+.form .form-area .container .select-item ul .select{
+    color: #00a1d6;
+    font-weight: bold;
+}
+.form .form-area .container .select-item .phone input{
+    width:320px;
+    height: 40px;
+    border-radius:0 4px 4px 0;
+    float: left;
+    box-sizing: border-box;
+}
+.form .form-area .container .sncode{
+    position: relative;
+}
+.form .form-area .container .sncode input{
+    width: 420px;
+    height: 40px;
+    padding-right: 165px;
+    box-sizing: border-box;
+   
+}
+.form .form-area .container .sncode button{
+    width: 160px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: -1px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    box-sizing: border-box;
+}
+.form .form-area .readme{
+    font-size: 12px;
+    margin-top: -30px;
+    width: 500px;
+    height: 35px;
+}
+
+.form .form-area .readme .checkbox{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    box-sizing: border-box;
+    cursor: pointer;
+    position: relative;
+}
+.form .form-area .readme input:checked+.checkbox::after{
+    content: "✓";
+    font-size: 15px;
+    text-align: center;
+    display: block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    /* top: 2px;
+    left: 3px; */
+    color: #fff;
+    border-radius: 3px;
+    background: #00a1d6;
+    box-sizing: border-box;
+    border-color: #00a1d6;
+}
+.form .form-area .readme input{
+    display: none;
+}
+
+.form .form-area .readme a{
+    color: #00a1d6;
+  
+}
+.form .form-area .container-register .register{
+    margin: 0 auto;
+    margin-top:-50px;
+    width: 420px;
+}
+.form .form-area .container-register .register .fill{
+    height: 40px;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 500;
+    
+   
+}
+.form .form-area .readme-user{
+    margin: 0 auto;
+    width: 420px;
+    text-align: right;
+
+    
+}
+.form .form-area .readme-user span a{
+    font-size: 12px;
+    color: #00a1d6;
+    text-align: right;
+    text-align: right;
+    
+}
+.form .form-area .container{
+    position: relative;
+    
+}
+.form .form-area .container .error{
+    font-size: 12px;
+    color: #f45a8d;
+    width: 300px;
+    position: absolute;
+    top: 13px;
+    right: -310px;
+}
+.form .form-area .container.haserror .error span{
+  
+    display: block;
+   
+}
+.form .form-area .container.haserror input:focus{
+    border-color: #f45a8d;
+}
+.form .form-area .item-password.haserror input:focus{
+    border-color: #f45a8d;
+}
+
+
+
